@@ -1,6 +1,8 @@
 {% load static %}
 <html>
 <head>
+    <meta charset="utf-8">
+    <title>Jairo - About</title>
     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'jairo_website/styles/styles.css' %}">
 </head>
@@ -15,7 +17,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2 class="text-left">About me</h2>
-                <p>Hello again! My name is Jairo Vera. I recently graduated <em>summa cum laude</em> from the University of Houston with a BS in Computer Science and Mathematics. Throughout my years in college, I realized that I love to learn new things, whether they were algorithms, math formulas, or programming languages. [More to be added]</p>
+                <p>Hello again! My name is Jairo Vera. I recently graduated <em>summa cum laude</em> from the University of Houston with a BS in Computer Science and Mathematics. Throughout my years in college, I realized that I love to learn new things, whether they were algorithms, math formulas, or programming languages. <br><br> I recently stumbled upon the Django and Bootstrap frameworks, so I decided to mess around with them and create this basic website. If this website ever grows beyond its basic form, then I would try to host it someday. For now, the source code is in my GitHub!</p>
             </div>
         </div>
 
@@ -24,6 +26,7 @@
                 <h2 class="text-left">Hobbies and Interests</h2>
                 <ul>
                     <li>Playing videogames</li>
+                    <li>Watching WWE</li>
                     <li>Exercising</li>
                     <li>YouTube</li>
                     <li><a href="{% url 'jairo_website:memes' %}">Memes</a></li>
