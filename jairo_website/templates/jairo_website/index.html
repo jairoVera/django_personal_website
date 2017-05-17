@@ -5,10 +5,15 @@
     <link rel="stylesheet" type="text/css" href="{% static 'jairo_website/styles/styles.css' %}">
 </head>
 <body>
+    <ul class="nav nav-tabs">
+      <li role="presentation" class="active"><a href="{% url 'jairo_website:index' %}">Home</a></li>
+      <li role="presentation"><a href="{% url 'jairo_website:about' %}">About</a></li>
+    </ul>
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class="text-left">Jairo Vera</h1>
+                <h1 class="text-center">Jairo Vera</h1>
             </div>
         </div>
 
@@ -21,19 +26,7 @@
 
         <div class="row">
             <div class="col-md-12">
-                <h2 class="text-left">About me</h2>
-                <p>I am a current undergraduate student at the University of Houston.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-left">Hobbies and Interests</h2>
-                <ul>
-                    <li>Playing videogames</li>
-                    <li>YouTube</li>
-                    <li>Math</li>
-                </ul>
+                <h1 class="text-center">Welcome to my (dummy) website!</h1>
             </div>
         </div>
     </div>
