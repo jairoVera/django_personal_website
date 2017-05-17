@@ -5,3 +5,6 @@ def index(request):
 
 def about(request):
     return render(request, 'jairo_website/about.html')
+
+def memes(request):
+    return render(request, 'jairo_website/memes.html')
