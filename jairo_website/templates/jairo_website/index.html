@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jairo - Home</title>
     <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'jairo_website/styles/styles.css' %}">
@@ -10,6 +12,7 @@
     <ul class="nav nav-tabs">
       <li role="presentation" class="active"><a href="{% url 'jairo_website:index' %}">Home</a></li>
       <li role="presentation"><a href="{% url 'jairo_website:about' %}">About</a></li>
+      <li role="presentation"><a href="{% url 'jairo_website:projects' %}">Projects</a></li>
       <li role="presentation"><a href="{% url 'jairo_website:memes' %}">Memes</a></li>
     </ul>
 

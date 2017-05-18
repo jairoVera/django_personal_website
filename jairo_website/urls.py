@@ -6,5 +6,6 @@ app_name = 'jairo_website'
 urlpatterns = [
     url(r'^$', views.index, name = 'index'),
     url(r'^about/$', views.about, name = 'about'),
+    url(r'^projects/$', views.projects, name = 'projects'),
     url(r'^memes/$', views.memes, name = 'memes'),
 ]
