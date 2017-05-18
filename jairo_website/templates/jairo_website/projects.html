@@ -25,34 +25,80 @@
             </div>
         </div>
 
+
         <div class="row">
-            <div class="col-md-12">
-              <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                Launch demo modal
-              </button>
+            <div class="col-md-4">
+                <h2 class="text-center">This Website</h2>
+                <img src="http://placekitten.com/g/300/300"
+                     class="img-responsive center-block" alt="Project 1"
+                     data-toggle="modal" data-target="#website">
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Software Design Class</h2>
+                <img src="http://placekitten.com/g/300/300"
+                     class="img-responsive center-block" alt="Project 2"
+                     data-toggle="modal" data-target="#softwareDesign">
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Operating Systems Class</h2>
+                <img src="http://placekitten.com/g/300/300"
+                     class="img-responsive center-block" alt="Project 3"
+                     data-toggle="modal" data-target="#operatingSystems">
             </div>
         </div>
     </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <div class="modal fade" id="website" tabindex="-1" role="dialog" aria-labelledby="websiteLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="websiteLabel">This Website</h4>
+                </div>
+                <div class="modal-body">
+                    <p>This (dummy) website is my first attempt at web development. The Django and Bootstrap frameworks really ease the difficulties of web development. I recommend these frameworks to anyone who wants to start web development!</p>
+                    <a href="https://github.com/jairoVera/django_personal_website">Link to GitHub</a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
+    <div class="modal fade" id="softwareDesign" tabindex="-1" role="dialog"
+         aria-labelledby="softwareDesignLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="softwareDesignLabel">Software Design Projects</h4>
+                </div>
+                <div class="modal-body">
+                    <p>I took a software design course while enrolled at the University of Houston. It is my pleasure to say that Venkat Subramaniam taught the course. This course exposed me to Test-Driven Development, software design principles, and software design patterns. These small projects showcase the principles and patterns I learned in the class.</p>
+                    <p>No GitHub Link yet :/</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="operatingSystems" tabindex="-1" role="dialog"
+         aria-labelledby="operatingSystemsLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="operatingSystemsLabel">Operating Systems Projects</h4>
+                </div>
+                <div class="modal-body">
+                    <p>I took an Operating Systems course while enrolled at the University of Houston. These small projects where the first difficult projects I worked on.</p>
+                    <a href="https://github.com/jairoVera/COSC-4330-assignments">Link to GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
